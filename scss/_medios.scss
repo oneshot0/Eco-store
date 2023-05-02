@@ -50,20 +50,21 @@
     }
     
   }
-  .about-us .mission-section {
-    flex-direction: column;
-    
-    .earth {
-      gap: 4px;
-      width: auto;
-      p{
-        font-size: 1em;
+  .info-section {
+    padding: 0 40px;
+    .about-us .mission-section {
+      flex-direction: column;
+      .earth {
+        gap: 4px;
+        width: auto;
+        p{
+          font-size: 1em;
+        }
       }
     }
-    
-    
   }
   .gallery {
+    padding-bottom: 0;
     h2 {
       margin: 0;
     }
@@ -74,5 +75,32 @@
         margin-bottom: 24px;
       }
     }
+  }
+  .location {
+    h2{
+      padding-bottom: 0;
+    }
+    .map {
+      margin-bottom: 20px;
+      width: 100%;
+      .map-description{
+        h3{
+          font-size: 1em;
+          margin-top: 12px;
+          margin-bottom: 0;
+        }
+        p {
+          font-size: 0.8em;
+          margin: 0;
+        }
+      }
+    }
+  }
+  footer {
+    padding: 8px 40px;
+  }
+  .social-media {
+    padding: 12px 0 0 0px; 
+    padding-bottom: 0;
   }
 }

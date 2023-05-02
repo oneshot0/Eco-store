@@ -277,15 +277,21 @@ footer .social-media {
   section .furniture .card-section .product-card {
     width: 40vw;
   }
-  .about-us .mission-section, .gallery .mission-section {
+  .info-section {
+    padding: 0 40px;
+  }
+  .info-section .about-us .mission-section, .info-section .gallery .mission-section {
     flex-direction: column;
   }
-  .about-us .mission-section .earth, .gallery .mission-section .earth, .about-us .mission-section .innovation, .gallery .mission-section .innovation {
+  .info-section .about-us .mission-section .earth, .info-section .gallery .mission-section .earth, .info-section .about-us .mission-section .innovation, .info-section .gallery .mission-section .innovation {
     gap: 4px;
     width: auto;
   }
-  .about-us .mission-section .earth p, .gallery .mission-section .earth p, .about-us .mission-section .innovation p, .gallery .mission-section .innovation p {
+  .info-section .about-us .mission-section .earth p, .info-section .gallery .mission-section .earth p, .info-section .about-us .mission-section .innovation p, .info-section .gallery .mission-section .innovation p {
     font-size: 1em;
+  }
+  .gallery {
+    padding-bottom: 0;
   }
   .gallery h2 {
     margin: 0;
@@ -296,5 +302,28 @@ footer .social-media {
   .gallery .gallery-images img {
     width: 100%;
     margin-bottom: 24px;
+  }
+  .location h2 {
+    padding-bottom: 0;
+  }
+  .location .map {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .location .map .map-description h3 {
+    font-size: 1em;
+    margin-top: 12px;
+    margin-bottom: 0;
+  }
+  .location .map .map-description p {
+    font-size: 0.8em;
+    margin: 0;
+  }
+  footer {
+    padding: 8px 40px;
+  }
+  .social-media {
+    padding: 12px 0 0 0px;
+    padding-bottom: 0;
   }
 }/*# sourceMappingURL=main.css.map */
