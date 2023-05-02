@@ -5,6 +5,7 @@ $primary-text-color: #7C6A0A;
 $quaternary-color: #FA9500;
 $font-stackl: 'IBM Plex Sans', sans-serif;
 $paragraph-size: 1.5em;
+$text-color: #E86424;
 
 @mixin flexCenter($direction, $content: null, $align: null) {
   display: flex;
@@ -163,7 +164,7 @@ section {
       width: 30vw;
       display: flex;
       gap: 40px;
-      color: #E86424;
+      color: $text-color;
       img {
         object-fit: contain;
       }
@@ -195,12 +196,34 @@ section {
     }
   }
 }
-
+.location {
+  color: $text-color;
+  h2{
+    padding-bottom: 60px;
+  }
+  .map{
+    width:80%;
+    margin: auto;
+    @include flexCenter(column, null, null);
+    img{
+      object-fit: contain;
+    }
+    
+  }
+}
 
 
 
 footer {
   background-color: $quaternary-color;
-  width: 100%;
-  height: 250px;
+
+  height: auto;
+  color: white;
+  padding-left: 60px;
+  padding-top: 40px;
+  .social-media{
+    @include flexCenter(row, center, center);
+    gap: 40px;
+    padding-bottom: 40px;
+  }
 }
