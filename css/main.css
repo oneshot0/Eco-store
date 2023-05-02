@@ -129,7 +129,7 @@ section .healthcare .product-card .product-image, section .furniture .product-ca
   align-items: center;
 }
 section .healthcare .product-card .product-image img, section .furniture .product-card .product-image img {
-  width: 12vw;
+  width: 100%;
   height: 30vh;
   -o-object-fit: contain;
      object-fit: contain;
@@ -219,4 +219,82 @@ footer .social-media {
   align-items: center;
   gap: 40px;
   padding-bottom: 40px;
+}
+
+@media (max-width: 425px) {
+  article {
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  article .impact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  article .impact-section h1 {
+    font-size: 2em;
+  }
+  article .impact-section p {
+    font-size: 1em;
+    text-align: justify;
+  }
+  article .impact-section button {
+    width: auto;
+  }
+  article .image-section {
+    margin-top: 20px;
+  }
+  article .image-section img {
+    width: 52vw;
+  }
+  .product-section {
+    padding: 0 40px;
+  }
+  .product-section .healthcare, .product-section section .furniture, section .product-section .furniture {
+    padding-bottom: 0;
+  }
+  .product-section .healthcare .card-section, .product-section section .furniture .card-section, section .product-section .furniture .card-section {
+    -moz-column-gap: 80px;
+         column-gap: 80px;
+    row-gap: 40px;
+  }
+  .product-section .healthcare .card-section .product-card, .product-section section .furniture .card-section .product-card, section .product-section .furniture .card-section .product-card {
+    width: 40vw;
+  }
+  section .furniture h2 {
+    padding-bottom: 0;
+  }
+  section .furniture .card-section {
+    -moz-column-gap: 80px;
+         column-gap: 80px;
+    row-gap: 40px;
+  }
+  section .furniture .card-section .product-card {
+    width: 40vw;
+  }
+  .about-us .mission-section, .gallery .mission-section {
+    flex-direction: column;
+  }
+  .about-us .mission-section .earth, .gallery .mission-section .earth, .about-us .mission-section .innovation, .gallery .mission-section .innovation {
+    gap: 4px;
+    width: auto;
+  }
+  .about-us .mission-section .earth p, .gallery .mission-section .earth p, .about-us .mission-section .innovation p, .gallery .mission-section .innovation p {
+    font-size: 1em;
+  }
+  .gallery h2 {
+    margin: 0;
+  }
+  .gallery .gallery-images {
+    flex-direction: column;
+  }
+  .gallery .gallery-images img {
+    width: 100%;
+    margin-bottom: 24px;
+  }
 }/*# sourceMappingURL=main.css.map */

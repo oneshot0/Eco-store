@@ -42,7 +42,9 @@ nav {
     gap: 15px;
     @include buttonStyle();
   }
+  
 }
+
 
 article {
   width: auto;
@@ -136,7 +138,7 @@ section {
         align-items: center;
 
         img {
-          width: 12vw;
+          width: 100%;
           height: 30vh;
           object-fit: contain;
           border-radius: 6px;
@@ -227,3 +229,5 @@ footer {
     padding-bottom: 40px;
   }
 }
+
+@import 'medios';

@@ -1,0 +1,78 @@
+@media(max-width:425px) {
+  article{
+    padding: 0 40px;
+    @include flexCenter (column, center, center);
+    .impact-section {
+      @include flexCenter (column, center, center);
+      gap: 8px;
+      h1 {
+        font-size: 2em;
+      }
+      p {
+        font-size:1em ;
+        text-align: justify;
+      }
+      button {
+        width: auto;
+      }
+    }
+    .image-section{
+      margin-top: 20px;
+      img {
+        width: 52vw
+      }  
+    }
+  }
+  .product-section {
+    padding: 0 40px;
+    .healthcare {
+      padding-bottom: 0;
+      .card-section{
+        column-gap: 80px;
+        row-gap: 40px;
+        .product-card{
+          width: 40vw;
+        }
+      }
+    }
+  }
+  section .furniture {
+    h2{
+      padding-bottom: 0;
+    }
+    .card-section {
+      column-gap: 80px;
+      row-gap: 40px;
+
+      .product-card {
+        width: 40vw;
+      }
+    }
+    
+  }
+  .about-us .mission-section {
+    flex-direction: column;
+    
+    .earth {
+      gap: 4px;
+      width: auto;
+      p{
+        font-size: 1em;
+      }
+    }
+    
+    
+  }
+  .gallery {
+    h2 {
+      margin: 0;
+    }
+    .gallery-images {
+      flex-direction: column;
+      img {
+        width: 100%;
+        margin-bottom: 24px;
+      }
+    }
+  }
+}
