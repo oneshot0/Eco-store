@@ -280,15 +280,22 @@ footer .social-media {
   .info-section {
     padding: 0 40px;
   }
+  .info-section .about-us h2, .info-section .gallery h2 {
+    padding-bottom: 12px;
+  }
   .info-section .about-us .mission-section, .info-section .gallery .mission-section {
     flex-direction: column;
   }
   .info-section .about-us .mission-section .earth, .info-section .gallery .mission-section .earth, .info-section .about-us .mission-section .innovation, .info-section .gallery .mission-section .innovation {
+    align-items: center;
     gap: 4px;
     width: auto;
   }
+  .info-section .about-us .mission-section .earth img, .info-section .gallery .mission-section .earth img, .info-section .about-us .mission-section .innovation img, .info-section .gallery .mission-section .innovation img {
+    width: 120px;
+  }
   .info-section .about-us .mission-section .earth p, .info-section .gallery .mission-section .earth p, .info-section .about-us .mission-section .innovation p, .info-section .gallery .mission-section .innovation p {
-    font-size: 1em;
+    font-size: 0.9em;
   }
   .gallery {
     padding-bottom: 0;

@@ -52,14 +52,24 @@
   }
   .info-section {
     padding: 0 40px;
-    .about-us .mission-section {
-      flex-direction: column;
-      .earth {
-        gap: 4px;
-        width: auto;
-        p{
-          font-size: 1em;
+    .about-us  {
+      h2 {
+        padding-bottom: 12px;
+      }
+      .mission-section {
+        flex-direction: column;
+        .earth {
+          align-items: center;
+          gap: 4px;
+          width: auto;
+          img{
+            width: 120px;
+          }
+          p{
+            font-size: 0.9em;
+          }
         }
+
       }
     }
   }
