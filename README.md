@@ -1,5 +1,5 @@
 # Platzi-EcoStore
-
+ 
 Project of Platzi's Sass course 
 Esta es una pagina web creada después de dar una continuidad del curso de Fundamentos de Sass de Platzi, el cual puede ser visto a traves del [Siguiente link](https://oneshot0.github.io/Eco-store/ "Siguiente link"). En la cual se ven los conceptos generales de Sass
 
